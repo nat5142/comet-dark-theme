@@ -196,7 +196,7 @@
 	  "notifications.border": "#303031",
 	  "gitDecoration.addedResourceForeground": "#81b88b",
 	  "gitDecoration.conflictingResourceForeground": "#6c6cc4",
-	  "gitDecoration.deletedResourceForeground": "#de4c4b",
+	  "gitDecoration.deletedResourceForeground": "#ed5c5c",
 	  "gitDecoration.ignoredResourceForeground": "#8c8c8c",
 	  "gitDecoration.modifiedResourceForeground": "#e2c08d",
 	  "gitDecoration.stageDeletedResourceForeground": "#f9627d",
@@ -262,7 +262,7 @@
 	  "debugExceptionWidget.background": "#333333",
 	  "debugExceptionWidget.border": "#474747"
 	},
-	"tokenColors": [
+	"tokenColors": [	
 	  {
 		"name": "Namespaces",
 		"scope": "entity.name.namespace",
@@ -770,7 +770,7 @@
 			"constant.language.python"
 		],
 		"settings": {
-		  "foreground": "#c56363"
+		  "foreground": "#E06C75"
 		}
 	  },
 	  {
@@ -800,7 +800,7 @@
 			"meta.function-call.generic.python"
 		],
 		"settings": {
-		  "foreground": "#B9FFA2"
+		  "foreground": "#ABFAA9"
 		}
 	  },
 	  {
@@ -898,7 +898,7 @@
 		  "variable.function"
 		],
 		"settings": {
-		  "foreground": "#93a8ac"
+		  "foreground": "#83BCD6"
 		}
 	  },
 	  {
@@ -1046,7 +1046,7 @@
 		"name": "Strings",
 		"scope": "string",
 		"settings": {
-		  "foreground": "#65D3DD"
+		  "foreground": "#66B3BA"
 		}
 	  },
 	  {
@@ -1076,7 +1076,7 @@
 		"name": "Integers",
 		"scope": "constant.numeric",
 		"settings": {
-		  "foreground": "#F2DC5D"
+		  "foreground": "#F7ED7E"
 		}
 	  },
 	  {
@@ -1111,7 +1111,6 @@
 		"name": "Attribute IDs",
 		"scope": "entity.other.attribute-name.id",
 		"settings": {
-		  "fontStyle": "normal",
 		  "foreground": "#61afef"
 		}
 	  },
@@ -1119,7 +1118,6 @@
 		"name": "Attribute class",
 		"scope": "entity.other.attribute-name.class.css",
 		"settings": {
-		  "fontStyle": "normal",
 		  "foreground": "#d19a66"
 		}
 	  },
@@ -1361,10 +1359,16 @@
 		}
 	  },
 	  {
-		"name": "Source Json Meta Structure Dictionary Json > Constant Language Json,source Json Meta Structure Array Json > Constant Language Json",
-		"scope": "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
+		"scope": "source.json meta.structure.dictionary.json > source.json meta.structure.array.json",
 		"settings": {
 		  "foreground": "#56b6c2"
+		}
+	  },
+	  {
+		"name": "JSON Boolean",
+		"scope": "constant.language.json",
+		"settings": {
+		  "foreground": "#E06C75"
 		}
 	  },
 	  {
