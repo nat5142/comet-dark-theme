@@ -614,7 +614,7 @@
 		"name": "js variable readwrite",
 		"scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
 		"settings": {
-		  "foreground": "#e06c75"
+		  "foreground": "#D4D4D4"
 		}
 	  },
 	  {
@@ -622,6 +622,13 @@
 		"scope": "support.constant.json",
 		"settings": {
 		  "foreground": "#d19a66"
+		}
+	  },
+	  {
+		"name": "JS property",
+		"scope": "variable.other.property.js",
+		"settings": {
+			"foreground": "#c096dc",
 		}
 	  },
 	  {
@@ -634,7 +641,7 @@
 		  "keyword.operator.expression.keyof"
 		],
 		"settings": {
-		  "foreground": "#c678dd"
+		  "foreground": "#A98Cf2"
 		}
 	  },
 	  {
@@ -740,7 +747,7 @@
 		  "scope": "variable.parameter",
 		  "settings": {
 			  "fontStyle": "",
-			  "foreground": "#A98Cf2"
+			  "foreground": "#EADAB1"
 		  }
 	  },
 	  {
@@ -844,7 +851,7 @@
 		"name": "Variables",
 		"scope": "variable",
 		"settings": {
-		  "foreground": "#e06c75"
+		  "foreground": "#EBF5EE"
 		}
 	  },
 	  {
@@ -983,19 +990,12 @@
 		"name": "Storage",
 		"scope": "storage",
 		"settings": {
-		  "foreground": "#c678dd"
+		  "foreground": "#ABFAA9"
 		}
 	  },
 	  {
 		"name": "Storage JS TS",
 		"scope": "token.storage",
-		"settings": {
-		  "foreground": "#c678dd"
-		}
-	  },
-	  {
-		"name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
-		"scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
 		"settings": {
 		  "foreground": "#c678dd"
 		}
@@ -1640,7 +1640,7 @@
 		  "punctuation.section.embedded"
 		],
 		"settings": {
-		  "foreground": "#c678dd"
+		  "foreground": "#F7ED7E"
 		}
 	  },
 	  {
