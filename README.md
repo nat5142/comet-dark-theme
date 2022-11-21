@@ -29,9 +29,10 @@ Major accents:
 - #7f848e (Roman Silver, comments)
 - #66B3BA (Cadet Blue, comments)
 - #83BCD6 (Dark Sky Blue, function definitions)
-- #ABFAA9 (Mint Green, function calls)
+- #A5FFB6 (Magic Mint, function calls)
     - #A6E968 ?
 - #E2B4BD (Cameo Pink, builtins, JSON keys)
+    - #EF767A (Pastel Pink, TypeScript arguments)
 - #E06C75 (Candy Pink, builtins, python magic methods, defaults, JSON booleans)
 - #EADAB1 (Dutch White, js parameters)
 - #A98Cf2 (Lavender Floral, python parameters)
@@ -45,3 +46,5 @@ Minor Accents:
 
 Would like to use:
 - #7BF1A8 (Lime Green)
+- #5E7CE2 (Glaucous)
+- #23F0C7 (Sea Green Crayola)

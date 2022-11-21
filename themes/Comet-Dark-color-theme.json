@@ -807,7 +807,7 @@
 			"meta.function-call.generic.python"
 		],
 		"settings": {
-		  "foreground": "#ABFAA9"
+		  "foreground": "#A5FFB6"
 		}
 	  },
 	  {
@@ -990,7 +990,7 @@
 		"name": "Storage",
 		"scope": "storage",
 		"settings": {
-		  "foreground": "#ABFAA9"
+		  "foreground": "#A5FFB6"
 		}
 	  },
 	  {
@@ -1097,14 +1097,14 @@
 		"name": "Tags",
 		"scope": "entity.name.tag",
 		"settings": {
-		  "foreground": "#ABFAA9"
+		  "foreground": "#A5FFB6"
 		}
 	  },
 	  {
 		"name": "Attributes",
 		"scope": "entity.other.attribute-name",
 		"settings": {
-		  "foreground": "#D2A673"
+		  "foreground": "#EEA9AC"
 		}
 	  },
 	  {
